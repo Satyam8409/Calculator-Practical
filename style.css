@@ -1,0 +1,98 @@
+@import url(./variable.css);
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid salmon; */
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    max-width: 900px;
+    min-height: 90%;
+    display: flex;
+    /* border: 1px solid salmon; */
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+}
+.section-left{
+    flex: 70;
+    display: flex;
+    flex-direction: column;
+}
+.article-top{
+    flex: 35;
+    padding: 15px;
+    border-bottom: 3px solid var(--bg-btn);
+    display: flex;
+    flex-direction: column;
+}
+.calculation-area{
+    flex: 70;
+}
+.unit{
+    /* border: 1px solid salmon; */
+    flex: 30;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.article-bottom{
+    flex: 65;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.fun-div{
+    flex: 10;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 10px;
+}
+.fun-div>p{
+    font-size: 1.5rem;
+}
+.button-div{
+    flex: 90;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 3px;
+    padding: 5px;
+}
+button{
+    border-radius: 5px;
+    box-shadow: var(--shadow-btn);
+    background-color: var(--bg-btn);
+    color: var(--text-primary);
+    padding: 10px 0;
+    border: none;
+    font-size: 1.1rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--bg-btn-hover);
+    box-shadow: var(--shadow-btn-hover);
+    
+}
+.section-right{
+    flex: 30;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.history{
+    font-size: 1.5rem;
+}
+.memory{
+    font-size: 1.5rem;
+}
