@@ -1,0 +1,24 @@
+@media(max-width:888px){
+    .section-right{
+        display: none;
+    }
+    .hamberger{
+        display: block;  
+        cursor: pointer;
+    }
+}
+@media (max-width:580px) {
+    .remove-svg{
+        display: none;
+    }
+}
+@media (max-width:376px) {
+    .container{
+        width: fit-content;
+    }
+}
+@media (min-width:888px) {
+    .cross{
+        display: none;
+    }
+}
